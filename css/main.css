@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+@font-face {
+	font-family: 'Wisdom Script Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('Wisdom Script AJ.woff');
+	}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	padding: 10px;
+	max-width: 1200px;
+	width: 90%;	
+}
+#menu li {
+	display: flex;
+	padding:0 10px;
+	font-weight: 800;
+
+}
+
+a{
+	text-decoration: none;
+	color:#77A466;
+}
+
+a:hover{
+	color:#77A466;
+}
+
+a:active{
+	color:#77A466;
+}
+
+header{
+	font-family:'Montserrat', sans-serif;
+	color: #77A466;
+	text-transform: uppercase;
+	display:flex;	
+}
+
+#menu{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	padding-top: 10px;
+}
+
+#title{
+	font-weight: 800;
+	float:left;
+	font-size: 30px;
+}
+
+#title span{
+	color: black;
+}
+
+.top-section{
+	clear:both;
+}
+
+.menu{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	list-style: none;
+	padding: 0px;
+}
+
+#hero-image img{
+	border-top:5px solid #77A466;
+	border-bottom: 5px solid #77A466
+}
+
+.main-title h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color:#77A466;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#welcome{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:black;
+	word-spacing: 1px;
+	line-height: 30px;
+}
+
+.bottom-section{
+	font-family:'Montserrat', sans-serif;
+	color:#77A466;
+	border-top: 1px solid gray;
+}
+
+.section-one h4{
+	font-family:'Montserrat', sans-serif;
+	font-size: 18px;
+	color:black;
+}
+.bottom-section{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow;row wrap;
+
+}
+.section-one {
+	width: 33%;
+	padding:20px;
+	text-align: left;
+	text-transform:uppercase ;
+}
+
+.section-two{
+	font-family:'Montserrat', sans-serif;
+	width: 33%;
+	color:black;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	padding: 15px;
+	text-align:left;
+	line-height: 20px;
+	text-transform:uppercase ;
+}
+
+.section-three{
+	font-family:'Montserrat', sans-serif;
+	width: 33%;
+	color: black;
+	padding:15px;
+	text-transform:uppercase ;
+	text-align:left;
+}
+
+footer{
+	clear:both;
+	border-top: 1px solid grey;
+	text-align: center;
+	font-family:'Montserrat', sans-serif;
+	text-transform:uppercase ;
+}
+footer span{
+	color:#77A466;	
+	font-family: 'Pacifico', cursive;
+	font-size: 16px;
+	text-transform: none;
+
+}
+
+
+/* Media Quaries*/
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+	
+}
+ 
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
+}
